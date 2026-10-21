@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #ffffff;
+  --foreground: #3f3f46;
+  --card: #ffffff;
+  --card-foreground: #09090b;
+  --border: #e4e4e7;
+  --primary: #7c3aed;
+  --primary-foreground: #fafafa;
+  --muted: #f4f4f5;
+
+  --bg: var(--card);
+  --text: var(--foreground);
+  --text-h: var(--card-foreground);
+  --accent: var(--primary);
+  --accent-foreground: var(--primary-foreground);
+  --accent-bg: color-mix(in srgb, var(--primary) 12%, transparent);
+  --accent-border: color-mix(in srgb, var(--primary) 45%, transparent);
+
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.dark {
+  --background: #09090b;
+  --foreground: #a1a1aa;
+  --card: #18181b;
+  --card-foreground: #fafafa;
+  --border: #27272a;
+  --primary: #a78bfa;
+  --primary-foreground: #18181b;
+  --muted: #27272a;
+
+  --bg: var(--card);
+  --text: var(--foreground);
+  --text-h: var(--card-foreground);
+  --accent: var(--primary);
+  --accent-foreground: var(--primary-foreground);
+  --accent-bg: color-mix(in srgb, var(--primary) 18%, transparent);
+  --accent-border: color-mix(in srgb, var(--primary) 50%, transparent);
+}
+
+body {
+  margin: 0;
+}
