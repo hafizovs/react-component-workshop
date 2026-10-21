@@ -30,3 +30,4 @@ coverage
 *.tsbuildinfo
 .next
 .expo
+storybook-static
