@@ -1,37 +1,22 @@
-# 12 Component workshop
+## Live demo
 
-**Live:** https://hafizovs.github.io/react-component-workshop/
+https://hafizovs.github.io/react-component-workshop/
 
-Storybook 8 catalog for shadcn-style primitives with Vitest accessibility checks.
+# Component workshop
 
-## Stack
-
-- Vite app on port **5012**
-- Storybook 8 (`@storybook/react-vite`) on port **60012**
-- Radix Dialog, CVA buttons, Tailwind light/dark
-
-
-## How to run
-
-```bash
-# from portfolio_react/
-pnpm install
-pnpm dev
-```
-
-Open **http://localhost:5012**
-
-See also [docs/RUNBOOK.md](../docs/RUNBOOK.md).
+Storybook catalog for shadcn-style primitives with Vitest accessibility checks — Vite + Storybook 8.
 
 ## Scripts
 
-| Command | Description |
-| --- | --- |
-| `pnpm dev` | Vite demo app |
-| `pnpm storybook` | Component stories |
-| `pnpm check` | Typecheck, Vitest, oxlint |
+```bash
+pnpm install
+pnpm dev          # http://localhost:5012
+pnpm storybook    # http://localhost:60012
+pnpm check
+pnpm build
+```
 
-## Manual check
+## Manual demo
 
 1. `pnpm storybook` — switch toolbar theme and inspect Button stories.
 2. `pnpm dev` — toggle theme and open the sample dialog.
